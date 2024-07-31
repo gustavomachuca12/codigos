@@ -1,8 +1,25 @@
-function esIgualYNegativo(a, b) {
-  // La función recibe dos argumentos "a" y "b" que son números.
-  // Determina si son iguales y son ambos negativos.
-  // De ser así, retorna true, de lo contrario, retorna false.
-  // Tu código:
+/* 
+  Importante: 
+  No modificar ni el nombre ni los argumetos que reciben las funciones, sólo deben escribir
+  código dentro de las funciones ya definidas. 
+  No comentar la funcion 
+*/
+function soloNumeros(array) {
+  // La funcion llamada 'soloNumeros' recibe como argumento un arreglo de enteros y strings llamado 'array'.
+  // Debe devolver un arreglo con solo los enteros.
+  // Ej: 
+  // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
+
+  // Tu código aca:
+  return array.reduce((acum,i)=>{
+    if (typeof i === 'number' && Number.isInteger(i)){
+      acum.push(i);
+    }
+    return acum;
+  },[]);
 }
 
-module.exports = esIgualYNegativo;
+// No modifiques nada debajo de esta linea //
+
+
+module.exports = soloNumeros
