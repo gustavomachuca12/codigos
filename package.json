@@ -1,19 +1,21 @@
 {
-  "name": "prepcheckpoint",
+  "name": "m1",
   "version": "1.0.0",
-  "description": "El challenge de hoy consiste en tres partes:",
-  "main": "checkpoint.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "jest --collectCoverage=false  --verbose"
+    "test": "jasmine",
+    "start": "live-server"
   },
-  "devDependencies": {
-    "eslint": "^7.7.0",
-    "jest": "^26.4.2"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^2.6.0",
-    "prompt-sync": "^4.2.0"
+    "jasmine": "^5.1.0",
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "jasmine-browser-runner": "^2.3.0",
+    "jasmine-core": "^5.1.1"
   }
 }

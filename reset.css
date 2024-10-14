@@ -1,0 +1,78 @@
+www.meyerweb.com
+Contenido principal Enlaces de navegación Pie de página
+Archivos de publicaciones
+Trabajo CSS
+Caja de instrumento
+Escribiendo
+Discurso
+Otras cosas
+Acerca de este sitio
+Herramientas CSS: Restablecer CSS
+El objetivo de una hoja de estilo de reinicio es reducir las inconsistencias del navegador en aspectos como alturas de línea predeterminadas, márgenes y tamaños de fuente de encabezados, etc. El razonamiento general detrás de esto se discutió en una publicación de mayo de 2007 , si está interesado. Los estilos de reinicio aparecen con bastante frecuencia en los marcos CSS, y el "reinicio de MeyerWeb" original se abrió camino en Blueprint , entre otros.
+
+Los estilos de restablecimiento que se ofrecen aquí son intencionalmente muy genéricos. No hay ningún color o fondo predeterminado establecido para el bodyelemento, por ejemplo. No recomiendo particularmente que lo uses sin modificaciones en tus propios proyectos. Debes modificarlo, editarlo, ampliarlo y ajustarlo de alguna otra manera para que coincida con tu línea base de restablecimiento específica. Completa los colores que prefieras para la página, los enlaces, etc.
+
+En otras palabras, este es un punto de partida, no una caja negra autónoma y sin susceptibilidades.
+
+Si quieres usar mis estilos de reinicio, ¡no dudes en hacerlo! Todo es de dominio público de forma explícita (tengo que decirlo formalmente o la gente me preguntará sobre licencias). Puedes obtener una copia del archivo para usarlo y modificarlo como mejor te convenga. Si prefieres copiar y pegar, o simplemente quieres una vista previa en la página de lo que obtendrás, aquí está.
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+Versiones anteriores
+versión 1.0 (200802)
+Expresiones de gratitud
+Gracias a Paul Chaplin por las blockquote/ qreglas.
+
+Archipiélago de la identidad
+Mastodonte
+GitHub
+Código de Pen
+Dribbble
+Flickr
+LinkedIn
